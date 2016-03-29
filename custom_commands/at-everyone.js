@@ -51,7 +51,7 @@ function cmdAtEveryone(request, bots, isMod, owner, callback) {
         attachments[0]["user_ids"].push(userIDs[user]);
       }
 
-      var msg = "Hey everyone listen up! " + request.name + " has shared something important!";
+      var msg = "Hey everyone, " + request.name + " has shared something important!";
       callback(true, msg, attachments);
     });
 
